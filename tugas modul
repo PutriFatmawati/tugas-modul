@@ -1,0 +1,36 @@
+import pute
+
+def main():
+#class volume lemari
+	p = 15
+	l = 30
+	t = 45
+
+	volume = pute.volumeLemari(p, l, t)
+
+	print("volume lemari")
+	print("Panjang sisi\t: ", p)
+	print("Lebar sisi\t: ", l)
+	print("Tinggi sisi\t: ", t)
+	print("Volume\t\t: ", volume)
+
+#class luas permukaan bola
+	r = 10
+
+	luasBola = pute.luaspermukaanBola(r)
+
+	print("\nluas permukaan")
+	print("jarijari\t: ", r)
+	print("LuasPermukaan\t\t: ", luasBola)
+
+#class luas rubik
+	s = 30
+
+	luasRubik = pute.luaspermukaanRubik(s)
+
+	print("\nluas permukaan")
+	print("sisi\t: ", s)
+	print("LuasPermukaan\t\t: ", luasRubik)
+
+if __name__ == "__main__":
+	main()
